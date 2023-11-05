@@ -1,0 +1,105 @@
+/* Variables */
+/* Color */
+:root {
+    --light-purple: #E3D7FF;
+    --purple: #AFA2FF;
+    --dark-purple: #7A89C2;
+    --light-green: #E4F4E0;
+    --dark-green: #89A881;
+    --L2D-P1: linear-gradient(180deg, #E3D7FF 0%, #7A89C2 100%);
+    --D2L-P1: linear-gradient(180deg, #7A89C2 0%, #E3D7FF 100%);
+    --L2D-P2: linear-gradient(180deg, #AFA2FF 0%, #7A89C2 100%);
+    --D2L-P2: linear-gradient(180deg, #7A89C2 0%, #AFA2FF 100%);
+    --L2D-G:  linear-gradient(180deg, #CBEAC3 0%, #89A881 100%);
+    --D2L-G:  linear-gradient(180deg, #89A881 0%, #CBEAC3 100%);
+}
+
+/* NORMALIZING RULES */
+*{
+  box-sizing: border-box;
+}
+body, html {
+    min-height: 100vh;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* END NORMALIZING RULES */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav {
+    display: block;
+}
+.primary-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.primary-nav ul li {
+    padding-left: 20px;
+}
+.primary-nav ul li a {
+    text-decoration: none;
+    color: var(--dark-purple);
+}
+.primary-nav ul li a h2:hover {
+    transition: 0.5s;
+    color: var(--purple);
+}
+.pg-padding {
+    padding: 30px 50px;
+}
+.logo-resize {
+    width: 200px;
+    height: auto;
+}
+
+header {
+    background-color: #E4F4E0;
+}
+
+body {
+    background-color:var(--light-green);
+}
+
+/* typography */
+h1 {
+    color:var(--dark-purple);
+    /* h1 */
+    font-family: Oswald;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+h2  {
+    color:var(--dark-purple);
+    /* h2 */
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+p   {
+    color:var(--dark-purple);
+    /* p */
+    font-family: oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
