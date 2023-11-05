@@ -10,22 +10,26 @@
     --D2L-P1: linear-gradient(180deg, #7A89C2 0%, #E3D7FF 100%);
     --L2D-P2: linear-gradient(180deg, #AFA2FF 0%, #7A89C2 100%);
     --D2L-P2: linear-gradient(180deg, #7A89C2 0%, #AFA2FF 100%);
-    --L2D-G:  linear-gradient(180deg, #CBEAC3 0%, #89A881 100%);
-    --D2L-G:  linear-gradient(180deg, #89A881 0%, #CBEAC3 100%);
+    --L2D-G: linear-gradient(180deg, #CBEAC3 0%, #89A881 100%);
+    --D2L-G: linear-gradient(180deg, #89A881 0%, #CBEAC3 100%);
 }
 
 /* NORMALIZING RULES */
-*{
-  box-sizing: border-box;
+* {
+    box-sizing: border-box;
 }
-body, html {
+
+body,
+html {
     min-height: 100vh;
     margin: 0;
 }
+
 img {
     max-width: 100%;
     height: auto;
 }
+
 /* END NORMALIZING RULES */
 
 header {
@@ -33,9 +37,11 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+
 nav {
     display: block;
 }
+
 .primary-nav ul {
     margin: 0;
     padding: 0;
@@ -43,20 +49,25 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
 .primary-nav ul li {
     padding-left: 20px;
 }
+
 .primary-nav ul li a {
     text-decoration: none;
     color: var(--dark-purple);
 }
+
 .primary-nav ul li a h2:hover {
     transition: 0.5s;
     color: var(--purple);
 }
+
 .pg-padding {
     padding: 30px 50px;
 }
+
 .logo-resize {
     width: 200px;
     height: auto;
@@ -67,12 +78,12 @@ header {
 }
 
 body {
-    background-color:var(--light-green);
+    background-color: var(--light-green);
 }
 
 /* typography */
 h1 {
-    color:var(--dark-purple);
+    color: var(--dark-purple);
     /* h1 */
     font-family: Oswald;
     font-size: 70px;
@@ -82,8 +93,9 @@ h1 {
     text-transform: uppercase;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-h2  {
-    color:var(--dark-purple);
+
+h2 {
+    color: var(--dark-purple);
     /* h2 */
     font-family: Oswald;
     font-size: 20px;
@@ -93,8 +105,9 @@ h2  {
     text-transform: uppercase;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-p   {
-    color:var(--dark-purple);
+
+p {
+    color: var(--dark-purple);
     /* p */
     font-family: oswald;
     font-size: 20px;
