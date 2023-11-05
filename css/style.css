@@ -169,3 +169,13 @@ p a:hover{
 .top {
     padding-top: 100px;
 }
+
+.para-center {
+    text-align: center;
+}
+
+footer {
+    background-color: var(--dark-purple);
+    padding: 30px 50px;
+    color: var(--light-green);
+}
