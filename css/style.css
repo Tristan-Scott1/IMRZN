@@ -36,6 +36,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 100;
 }
 
 nav {
@@ -52,12 +57,16 @@ nav {
 
 .primary-nav ul li {
     padding-left: 20px;
+
 }
 
 .primary-nav ul li a {
     text-decoration: none;
-    color: var(--dark-purple);
 }
+.primary-nav ul li a h2 {
+    color: var(--light-green);
+}
+
 
 .primary-nav ul li a h2:hover {
     transition: 0.5s;
@@ -74,7 +83,8 @@ nav {
 }
 
 header {
-    background-color: #E4F4E0;
+    background-color: var(--dark-purple);
+    padding-bottom: 30px;
 }
 
 body {
@@ -105,6 +115,23 @@ h2 {
     text-transform: uppercase;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+h3 {
+        color: var(--dark-purple);
+        /* h3 */
+        font-family: Oswald;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        /* Make the background of the body behind transparent*/
+        background-color: var(--light-green);
+}
+
 
 p {
     color: var(--dark-purple);
@@ -115,4 +142,30 @@ p {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+}
+.title {
+    color: var(--light-green);
+    background-color: var(--dark-purple);
+    padding-bottom: 30px;
+}
+.extra-padding {
+    margin:0;
+    padding-bottom: 100px;
+}
+strong{
+    color: var(--dark-purple);
+
+}
+
+p a{
+    color: var(--dark-green);
+    text-decoration: none;
+}
+p a:hover{
+    color: var(--purple);
+    text-decoration: none;
+    transition: 0.5s;
+}
+.top {
+    padding-top: 100px;
 }

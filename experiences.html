@@ -1,46 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>Immersive Art Experiences</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- for mobile responsiveness -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <title>Immersive Art Experiences</title>
+  <meta charset="UTF-8">
+  <!-- for mobile responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@100;300;700&family=Oswald:wght@400;700&display=swap');
-    </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@100;300;700&family=Oswald:wght@400;700&display=swap');
+
+
+    body,
+    html {
+      height: 100%;
+    }
+
+    .parallax {
+
+      /* The image used */
+      background-image: url('images/wndr-lightfloor.png');
+
+      /* Full height */
+      height: 100%;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .parallax2 {
+      /* The image used */
+      background-image: url('images/wndr-insideout.jpg');
+
+      /* Full height */
+      height: 100%;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .parallax3 {
+      /* The image used */
+      background-image: url('images/wndr.jpg');
+
+      /* Full height */
+      height: 100%;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
 </head>
 
 <body>
-    <header class="pg-padding">
-        <a href="index.html">
-            <img src="images/IMRZN.png" class="logo-resize" alt="IMRZN">
-        </a>
-        <nav class="primary-nav">
-            <ul>
-                <li><a href="experiences.html">
-                        <h2>Experiences</h2>
-                    </a></li>
-                <li><a href="artists.html">
-                        <h2>Artists</h2>
-                    </a></li>
-                <li><a href="technologies.html">
-                        <h2>technologies</h2>
-                    </a></li>
-                    <li><a href="testing.html">
-                        <h2>?</h2>
-                    </a></li>
+  <header class="pg-padding">
+    <a href="index.html">
+      <img src="images/IMRZN.png" class="logo-resize" alt="IMRZN">
+    </a>
+    <nav class="primary-nav">
+      <ul>
+        <li><a href="experiences.html">
+            <h2>Experiences</h2>
+          </a></li>
+        <li><a href="artists.html">
+            <h2>Artists</h2>
+          </a></li>
+        <li><a href="technologies.html">
+            <h2>technologies</h2>
+          </a></li>
+      </ul>
+    </nav>
+  </header>
 
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>EXPERIENCES</h1>
-    </main>
+  <div class="top">
+    <h1 class="pg-padding">IMMERSIVE ART EXPERIENCES</h1>
+  </div>
+  <p class="pg-padding extra-padding">
+    Thanks to technology's embrace, artists now have the power to craft installations that respond to the presence and
+    touch of viewers, turning art into a participatory experience. With the aid of touch-sensitive screens, motion
+    sensors, and even artificial intelligence, artworks come to life, shifting and changing in harmony with the viewer's
+    interactions. Notable examples of such immersive experiences include the captivating offerings of institutions like
+    WNDR Museum, Superblue Miami, and Experience Van Gogh.
+  </p>
+  <div class="title">
+    <h3 class="title pg-padding">WNDR MUSEUM</h3>
+    <p class="title pg-padding">"WNDR is a collective of thinkers, artists, poets and designers, working at the
+      intersection of art and technology."
+      "The expansive programs put forth as a collective hub includes our museums, creative studio, and bold
+      collaborations."</p>
+    <p class="title pg-padding"> <a href="https://wndrmuseum.com/">WNDR Museum</a> is an innovative fusion of art and
+      technology, showcasing a multisensory experience at its Chicago, San Diego, Boston, and Seattle locations, where
+      artists push the boundaries of experimentation.</p>
+  </div>
+  <div class="parallax3"></div>
+  <h3> LIGHTFLOOR </h3>
+  <div class="parallax"></div>
+  <div class="parallax"></div>
+  <div>
+    <h3>INSIDEOUT</h3>
+  </div>
+  <div class="parallax2"></div>
+  <div class="parallax2"></div>
+
+
 </body>
+
+</html>
