@@ -2,41 +2,172 @@
 <html lang="en">
 
 <head>
-    <title>Immersive Art Experiences</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- for mobile responsiveness -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <title>Immersive Art Experiences</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- for mobile responsiveness -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@100;300;700&family=Oswald:wght@400;700&display=swap');
-    </style>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Aleo:wght@100;300;700&family=Oswald:wght@400;700&display=swap');
+
+    body,
+    html {
+      height: 100%;
+    }
+
+    .parallax {
+
+      /* The image used */
+      background-image: url('images/mapping-4.gif');
+
+      /* Full height */
+      height: 100%;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .parallax2 {
+
+      /* The image used */
+      background-image: url('images/vr.gif');
+
+      /* Full height */
+      height: 100%;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .parallax3 {
+
+      /* The image used */
+      background-image: url('images/vr.gif');
+
+      /* Full height */
+      height: 100%;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+  </style>
 </head>
 
 <body>
-    <header class="pg-padding">
-        <a href="index.html">
-          <img src="images/IMRZN.png" class="logo-resize" alt="IMRZN">
-        </a>
-        <nav class="primary-nav">
-          <ul>
-            <li><a href="experiences.html">
-                <h2>Experiences</h2>
-              </a></li>
-              <li><a href="technologies.html">
-                <h2 class="active">technologies</h2>
-              </a></li>
-            <li><a href="artists.html">
-                <h2>Artists</h2>
-              </a></li>
-          </ul>
-        </nav>
-      </header>
-    <main class="top">
-        <h1>TECHNOLOGIES</h1>
-    </main>
+  <header class="pg-padding">
+    <a href="index.html">
+      <img src="images/IMRZN.png" class="logo-resize" alt="IMRZN">
+    </a>
+    <nav class="primary-nav">
+      <ul>
+        <li><a href="experiences.html">
+            <h2>Experiences</h2>
+          </a></li>
+        <li><a href="technologies.html">
+            <h2 class="active">technologies</h2>
+          </a></li>
+        <li><a href="artists.html">
+            <h2>Artists</h2>
+          </a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="top pg-padding">
+    <h1>TECHNOLOGIES</h1>
+    <p class="pg-padding extra padding">Immersive art experiences have evolved dramatically in recent years, thanks to
+      the integration of various cutting-edge technologies. These technologies include projection mapping, virtual
+      reality (VR), augmented reality (AR), photogrammetry, generative art, and more.
+    </p>
+  </div>
+
+  <!-- PROJECTION MAPPING -->
+  <div>
+    <h3 class="title pg-padding">PROJECTION MAPPING</h3>
+    <div class="title grid-2-3">
+
+      <div>
+        <img src="images/mapping-1.gif" class="img-size" alt="Projection Mapping">
+      </div>
+
+      <div>
+        <img src="images/mapping-2.gif" class="img-size" alt="Projection Mapping 2">
+      </div>
+
+      <div>
+        <img src="images/mapping-3.gif" class="img-size" alt="Projection Mapping 3">
+      </div>
+
+      <div>
+        <p class="title">Projection mapping, also known as video mapping or spatial augmented reality, is a technology
+          and artistic technique used to project images, animations, or video onto three-dimensional objects or
+          surfaces to create the illusion of dynamic and immersive transformations. This technique involves precisely
+          aligning and adjusting the projected content to match the contours, shapes, and dimensions of the target
+          surface. Projection mapping is commonly used in various fields, such as art installations, advertising,
+          entertainment, and architectural displays, to create captivating and visually stunning experiences by
+          effectively transforming the appearance of physical objects through the use of projected visuals.</p>
+      </div>
+    </div>
+  </div>
+  <div class="parallax"></div>
+  <!-- END PROJECTION MAPPING -->
+
+  <!-- VR AR -->
+  <div>
+    <h3 class="title pg-padding">VR & AR</h3>
+    <div class="title grid-2-3">
+
+      <div>
+        <img src="images/AR-Mural.gif" class="img-size" alt="Projection Mapping 2">
+      </div>
+
+      <div>
+        <img src="images/vr-2.gif" class="img-size" alt="Projection Mapping">
+      </div>
+
+
+      <div>
+        <img src="images/vr-3.gif" class="img-size" alt="Projection Mapping 3">
+      </div>
+
+      <div>
+        <p class="title">Virtual Reality is a technology that immerses users in a computer-generated, three-dimensional
+          environment, isolating them from the real world. VR headsets track head movements and display a realistic,
+          interactive virtual world. VR can be used for gaming, training simulations, architectural visualization, and
+          more.<br><br>
+
+          Augmented Reality is a technology that overlays digital information, such as images, videos, or 3D models,
+          onto the real world. AR is typically experienced through smartphones, smart glasses, or heads-up displays. It
+          enhances the user's perception of the physical environment by adding digital content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="parallax2"></div>
+  <!-- END VR AR -->
+
+  <!-- PHOTOGRAMMETRY -->
+  <div class="title">
+    <h3 class="title pg-padding">photogrammetry</h3>
+
+      <div>
+        <p class="title">Photogrammetry is a technique used to create accurate 3D models or measurements of objects or environments by analyzing and processing multiple photographs or images taken from different angles. By identifying common points in these images and triangulating their positions, photogrammetry software can reconstruct the 3D structure and spatial relationships of the objects within the images. Artists and historians can use this technology to preserve art, but also give people the opport </p>
+      </div>
+
+      <model-viewer alt="the moon" src="images/statue.glb" class="image-resize"camera-controls></model-viewer>
+
+
 </body>
